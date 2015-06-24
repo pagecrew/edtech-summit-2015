@@ -1,0 +1,10 @@
+name: "EdTech Summit Africa 2015"
+description: ""
+
+url: "http://localhost:4000"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+highlighter: pygments
