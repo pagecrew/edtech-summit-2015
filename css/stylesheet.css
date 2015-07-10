@@ -235,3 +235,58 @@ blockquote p {
   background-image: none;
 }
 
+/* workshop schedule */
+.schedule{
+  padding: 20px;
+}
+
+.workshops{
+  background-color: #aaa;
+  padding: 20px;
+}
+
+/* ws tiles */
+.ws_tile{
+  padding: 0.2em;
+  margin: 0.2em;
+  border-style: solid;
+  border-width: 2px;
+  height: 350px;
+}
+
+.ws_head{
+
+}
+
+.ws_time{
+
+}
+
+.ws_venue{
+
+}
+
+.ws_title{
+
+}
+
+.ws_descrip{
+
+}
+
+.ws_foot{
+
+}
+
+.ws_presenter{
+
+}
+
+.ws_about{
+
+}
+
+.ws_resources{
+
+}
+
