@@ -209,11 +209,6 @@ blockquote p {
   margin-right: 30px;  
 }
 
-/*.btn-more{
-  color: #217dbb;
-  background-color: #fff;
-  border-color: #fff;
-}*/
 
 .btn-more {
   color: #ffffff;
@@ -241,41 +236,57 @@ blockquote p {
 }
 
 .workshops{
-  background-color: #aaa;
+  
   padding: 20px;
 }
 
-/* ws tiles */
+.yellow_bg{
+  background-color: #fddf99;
+}
+
+.blue_bg{
+  background-color: #cbe0ed;
+}
+
+.green_bg{
+  background-color: #d3e999;
+}
+
+/* workshop tiles */
 .ws_tile{
   padding: 0.2em;
-  margin: 0.2em;
+  margin-top: 15px;
   border-style: solid;
-  border-width: 2px;
+  border-width: 1px;
   height: 350px;
 }
 
 .ws_head{
-
+  background: rgb(255,255,255); /* The Fallback */
+  background: rgba(255,255,255, 0.5); 
 }
 
 .ws_time{
-
+  float: center;
 }
 
 .ws_venue{
-
+  font-style: italic;
+  float: right;
 }
 
 .ws_title{
-
+  font-size: 1.25em;
+  font-weight: 300;
+  color: #fff;
 }
 
 .ws_descrip{
-
+ 
 }
 
 .ws_foot{
-
+  position: absolute;
 }
 
 .ws_presenter{
