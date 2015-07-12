@@ -149,7 +149,9 @@ p {
 /*
   RB STYLES
 */
-
+/************************/
+/****** Presenter pages */
+/************************/
 
 .presenter {
   margin-top: 20px;
@@ -230,7 +232,26 @@ blockquote p {
   background-image: none;
 }
 
-/* workshop schedule */
+/************************/
+/************ Producers */
+/************************/
+
+.producer img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.pr_name, .pr_title{
+  text-align: center;
+}
+
+
+/************************/
+/**** Workshop schedule */
+/************************/
+
 .schedule{
   padding: 20px;
 }
