@@ -251,9 +251,32 @@ blockquote p {
 /************************/
 /**** Workshop schedule */
 /************************/
+.schedule_tile{
+  margin-top: 10px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  background-color: #fff;
+  color: #000;
+}
+
+.schedule_tile ul{
+  list-style-type: none;
+  text-align: left;
+  line-height: 1.6em;
+  margin-left: 0;
+  padding-left: 1em;
+}
 
 .schedule{
   padding: 20px;
+}
+
+.schedule ul{
+  list-style-type: none;
+  text-align: left;
+  line-height: 1.6em;
+  margin-left: 0;
+  padding-left: 1em;
 }
 
 .workshops{
@@ -263,6 +286,10 @@ blockquote p {
 
 .yellow_bg{
   background-color: #fddf99;
+}
+
+.purple_bg{
+  background-color: #d8b7d7;
 }
 
 .blue_bg{
@@ -279,7 +306,7 @@ blockquote p {
   margin-top: 15px;
   border-style: solid;
   border-width: 1px;
-  height: 350px;
+/*  height: 350px;*/
 }
 
 .ws_head{
@@ -288,7 +315,7 @@ blockquote p {
 }
 
 .ws_time{
-  float: center;
+  float: right;
 }
 
 .ws_venue{
@@ -297,17 +324,18 @@ blockquote p {
 }
 
 .ws_title{
-  font-size: 1.25em;
+  font-size: 1em;
   font-weight: 300;
-  color: #fff;
+/*  color: #fff;*/
 }
 
-.ws_descrip{
- 
+.ws_descrip, .ws_details, .ws_objectives, .ws_supplies{
+  margin-bottom: 0.4em;
 }
+
 
 .ws_foot{
-  position: absolute;
+
 }
 
 .ws_presenter{
