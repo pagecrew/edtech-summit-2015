@@ -235,12 +235,19 @@ blockquote p {
 /************************/
 /************ Producers */
 /************************/
+#producers{
+  padding-top: 20px;
+}
+
+#producers .row{
+  margin-top: 40px;
+}
 
 .producer img {
     margin: 0 auto;
     border: 7px solid #fff;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 150px;
+    max-height: 150px;
 }
 
 .pr_name, .pr_title{
